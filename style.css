@@ -1,0 +1,52 @@
+body {
+    font-family: 'Dela Gothic One', cursive;
+        background: white;
+        text-align: center;
+        color: black;
+    }
+    .header_div{
+        background: white;
+        color:black;
+        height: 100px;
+    }
+    .header_div img{
+        width: 150px;
+    }
+    .text_images_and_result{
+        background: white;
+        padding: 100px;
+        border: 3px solid grey;
+        box-shadow: 5px 5px 18px black;
+        width: 550px;
+    }
+    .bottom{
+        background: palevioletred;
+        border: 3px solid grey;
+        box-shadow: 5px 5px 18px black;
+        width: 1000px;   
+        margin-bottom: 50px;
+    }
+    .text_images_and_result img{
+        background: white;
+        width: 250px;
+        padding: 10px;
+        margin-bottom: 0px;
+        box-shadow: 5px 5px 18px white;
+        border-radius: 20px;
+    }
+    .bob3{
+        background: grey;
+        border: 3px solid rgb(66, 65, 65);
+        box-shadow: 5px 5px 18px black;
+        width: 400px;
+        border-radius: 10px;
+    }
+    .purple{
+        color: indigo;
+    }
+    hr{
+        background-color: black;
+    }
+    #line{
+        color: rgba(255, 255, 255, 0);
+    }

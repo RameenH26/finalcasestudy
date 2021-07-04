@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <title>Case Study #1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    </head>
+    <body>
+        <center>
+            <div class="col-xs-12 header_div">
+                <h2>Case Study #1<img src="https://thumbs.gfycat.com/RaggedGoldenJoey-size_restricted.gif"></h2>
+              </div>
+              <hr>
+              <div id="line">.</div>
+        <ol>
+            
+            <div class="text_images_and_result">
+                <li>
+                    <b>Test Image - </b><img src="https://di2ponv0v5otw.cloudfront.net/posts/2020/07/08/5f0581cccb692c3e4818c8fb/m_5f0581dd2f3d1996a7c15653.jpg" class="img-responsive">
+                </li>
+                <h5>Output on <b class="purple">Wolfram Model</b> - 
+                <span>Vial</span>
+            </h5>
+            <h5>Output on <b class="purple">Mobilenet Model</b> - 
+                <span>Water Bottle</span>
+            </h5>
+            <div class="bob3">
+                <h4>Result - Mobilenet is more accurate</h4>
+                <hr>
+                <h4> </h4>
+            </div>
+
+            </div>
+            <hr>
+
+            <div class="text_images_and_result">
+                <li>
+                    <b>Test Image - </b><img src="https://images.girlslife.com/posts/038/38177/slider_image_resized.jpg" class="img-responsive">
+                </li>
+                <h5>Output on <b class="purple">Wolfram Model</b> - 
+                <span>Store</span>
+            </h5>
+            <h5>Output on <b class="purple">Mobilenet Model</b> - 
+                <span>Bedroom</span>
+            </h5>
+            <div class="bob3">
+                <h4>Result - Mobilenet is more accurate</h4>
+                <hr>
+                <h4> </h4>
+            </div>
+
+            </div>
+            <hr>
+
+            <div class="text_images_and_result">
+                <li>
+                    <b>Test Image - </b><img src="https://i.pinimg.com/564x/3d/1b/37/3d1b37aa9b0a431c12f0256f3e80d63a.jpg" class="img-responsive">
+                </li>
+                <h5>Output on <b class="purple">Wolfram Model</b> - 
+                <span>Secretary</span>
+            </h5>
+            <h5>Output on <b class="purple">Mobilenet Model</b> - 
+                <span>Desk</span>
+            </h5>
+            <div class="bob3">
+                <h4>Result - Mobilenet is more accurate</h4>
+                <hr>
+                <h4> </h4>
+            </div>
+
+            </div>
+            <hr>
+
+            <div class="text_images_and_result">
+                <li>
+                    <b>Test Image - </b><img src="http://www.justinhavre.com/uploads/agent-1/save-money-on-floral-arrangements-calgary-florists.jpg" class="img-responsive">
+                </li>
+                <h5>Output on <b class="purple">Wolfram Model</b> - 
+                <span>Florist's chrysanthemum</span>
+            </h5>
+            <h5>Output on <b class="purple">Mobilenet Model</b> - 
+                <span>Flowers</span>
+            </h5>
+            <div class="bob3">
+                <h4>Result - Mobilenet is more accurate</h4>
+                <hr>
+                <h4> </h4>
+            </div>
+
+            </div>
+            <hr>
+
+            <div class="text_images_and_result">
+                <li>
+                    <b>Test Image - </b><img src="data:image/jpeg;base64,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" class="img-responsive">
+                </li>
+                <h5>Output on <b class="purple">Wolfram Model</b> - 
+                <span>Switch</span>
+            </h5>
+            <h5>Output on <b class="purple">Mobilenet Model</b> - 
+                <span>Microphone</span>
+            </h5>
+            <div class="bob3">
+                <h4>Result - Mobilenet is more accurate</h4>
+                <hr>
+                <h4> </h4>
+            </div>
+
+            </div>
+            <hr>
+
+
+            <div class="text_images_and_result">
+                <li>
+                    <b>Test Image - </b><img src="data:image/jpeg;base64,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" class="img-responsive">
+                </li>
+                <h5>Output on <b class="purple">Wolfram Model</b> - 
+                <span>Spoon</span>
+            </h5>
+            <h5>Output on <b class="purple">Mobilenet Model</b> - 
+                <span>Hook</span>
+            </h5>
+            <div class="bob3">
+                <h4>Result - Wolram Model is more accurate</h4>
+                <hr>
+                <h4> </h4>
+            </div>
+
+            </div>
+            <hr>
+
+            <div class="text_images_and_result">
+                <li>
+                    <b>Test Image - </b><img src="data:image/jpeg;base64,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" class="img-responsive">
+                </li>
+                <h5>Output on <b class="purple">Wolfram Model</b> - 
+                <span>Golden Hamster</span>
+            </h5>
+            <h5>Output on <b class="purple">Mobilenet Model</b> - 
+                <span>Spotlight</span>
+            </h5>
+            <div class="bob3">
+                <h4>Result - Wolfram is more accurate</h4>
+                <hr>
+                <h4> </h4>
+            </div>
+
+            </div>
+            <hr>
+
+
+            <div class="text_images_and_result">
+                <li>
+                    <b>Test Image - </b><img src="https://i.pinimg.com/originals/a6/c7/4d/a6c74d75eccab24c0e25df5065372d0e.jpg" class="img-responsive">
+                </li>
+                <h5>Output on <b class="purple">Wolfram Model</b> - 
+                <span>Rocks</span>
+            </h5>
+            <h5>Output on <b class="purple">Mobilenet Model</b> - 
+                <span>Maraca</span>
+            </h5>
+            <div class="bob3">
+                <h4>Result - Wolfram is more accurate</h4>
+                <hr>
+                <h4> </h4>
+            </div>
+
+            </div>
+            <hr>
+
+            <div class="text_images_and_result">
+                <li>
+                    <b>Test Image - </b><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4CN1O4WWitMTVOI0k4Yf0UKfsWDUSOowdhw&usqp=CAU" class="img-responsive">
+                </li>
+                <h5>Output on <b class="purple">Wolfram Model</b> - 
+                <span>Pen</span>
+            </h5>
+            <h5>Output on <b class="purple">Mobilenet Model</b> - 
+                <span>Pencil</span>
+            </h5>
+            <div class="bob3">
+                <h4>Result - Mobilenet is more accurate</h4>
+                <hr>
+                <h4> </h4>
+            </div>
+
+            </div>
+            <hr>
+
+            <div class="text_images_and_result">
+                <li>
+                    <b>Test Image - </b><img src="https://www.carrie-lewis.com/wp-content/uploads/2021/05/the-Best-Colored-Pencils-for-Fine-Art-1.jpg" class="img-responsive">
+                </li>
+                <h5>Output on <b class="purple">Wolfram Model</b> - 
+                <span>Color pencils</span>
+            </h5>
+            <h5>Output on <b class="purple">Mobilenet Model</b> - 
+                <span>Pencil</span>
+            </h5>
+            <div class="bob3">
+                <h4>Result - Wolfram is more accurate</h4>
+                <hr>
+                <h4> </h4>
+            </div>
+
+            </div>
+            <hr>
+        </ol>
+
+        <div class="bottom">
+            <h4>I did a case study between the Wolfram model and the Mobilenet Model. </h4>
+            <h4>I tested 10 images and Mobilenet got most of them correct. </h4>
+            <h4></h4>According to my case study, the Mobilenet Model is much mroe accurate than the Wolfram Model. </h4>
+        </div>
+          </center>
+          
+    <script src="main.js"></script>
+    </body>
+</html>
